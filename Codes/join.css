@@ -1,0 +1,97 @@
+*{
+  margin:auto;
+}
+body{
+    background-color: rgb(40, 151, 195);
+}
+.main{
+   margin-left:10cm;
+   margin-right:10cm;
+   margin-top:2cm;
+   margin-bottom:2cm;
+    border:0.5px solid white;
+    padding:2.5%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:5px 5px 5px rgb(194, 187, 187),-5px -5px 5px rgb(194, 187, 187);
+    /* animation-name: move_around;
+    transition-duration: 100s;
+    animation-duration:5s; */
+    animation:5s forwards move_around infinite;
+
+}
+#main1,#main2{
+    border:0.5px solid white;
+    padding:5%;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:5px 5px 5px rgb(194, 187, 187),-5px -5px 5px rgb(194, 187, 187);
+    animation:6s forwards move_around infinite; /*provides animation*/
+}
+#main2{
+    animation:7.5s forwards move_around infinite;
+}
+h1{
+    color:white;
+    font-size: 50px;
+    margin-left:40%;
+
+}
+form{
+    background-color: white;
+    font-size: 20px;
+    padding:40px;
+    border-radius:20px;
+    background-position:unset;
+}
+label{
+    padding:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:1cm;
+}
+#fname,#lname,#dob,#email,#mobile,#username,#password{
+    padding:10px;
+    border:none;
+    border-bottom:2px solid grey;
+    margin-left:4.5cm;
+}
+#submit{
+    padding:10px;
+    color:white;
+    background-color: coral;
+    border:none;
+    margin-left:3cm;
+    margin-top:1cm;
+    font-size:20px ;
+    border-radius:10px;
+    
+}
+#reset{
+    padding:10px;
+    border:none;
+    font-size:20px ;
+    border-radius:10px;
+    color:white;
+    background-color:red;
+    margin-left:1cm;
+}
+#submit:hover,#reset:hover{
+    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
+    cursor:pointer;
+}
+@keyframes move_around{
+    0%{
+        box-shadow:5px 5px 5px red,-5px -5px 5px red; 
+    }
+    25%{
+        box-shadow:5px 5px 5px yellow,-5px -5px 5px yellow;
+
+    }
+    50%{
+        box-shadow:5px 5px 5px greenyellow,-5px -5px 5px greenyellow;
+    }
+    75%{
+        box-shadow:5px 5px 5px blue,-5px -5px 5px blue;
+    }
+    100%{
+        box-shadow:5px 5px 5px red,-5px -5px 5px red;
+    }
+}
