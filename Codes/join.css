@@ -27,7 +27,7 @@ body{
     animation:6s forwards move_around infinite; /*provides animation*/
 }
 #main2{
-    animation:7.5s forwards move_around infinite;
+    animation:7s forwards move_around infinite;
 }
 h1{
     color:white;
