@@ -2,7 +2,7 @@
   margin:auto;
 }
 body{
-    background-color: rgb(40, 151, 195);
+    background-color:rgb(237, 11, 45);
 }
 .main{
    margin-left:10cm;
@@ -17,7 +17,12 @@ body{
     transition-duration: 100s;
     animation-duration:5s; */
     animation:5s forwards move_around infinite;
-
+}
+#main1{
+    background-color:coral;
+}
+.main,#main2{
+    background-color:rgb(40, 151, 195);
 }
 #main1,#main2{
     border:0.5px solid white;
@@ -46,6 +51,7 @@ label{
     padding:15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left:1cm;
+    cursor:pointer;
 }
 #fname,#lname,#dob,#email,#mobile,#username,#password{
     padding:10px;
