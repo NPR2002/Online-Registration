@@ -2,7 +2,7 @@
   margin:auto;
 }
 body{
-    background-color:rgb(237, 11, 45);
+    background-color:rgb(202, 197, 198);
 }
 .main{
    margin-left:10cm;
@@ -19,7 +19,7 @@ body{
     animation:5s forwards move_around infinite;
 }
 #main1{
-    background-color:coral;
+    background-color:rgb(243, 188, 168);
 }
 .main,#main2{
     background-color:rgb(40, 151, 195);

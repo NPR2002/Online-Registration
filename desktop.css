@@ -1,6 +1,6 @@
 body{
     background-color: #f26525;
-    height:10vh;
+   
 }
 .main_body{
     background-color: white;
@@ -22,7 +22,7 @@ body{
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right:0.5cm;
-    /* text-align:center; */
+   align-items: center;
     padding:10px;
     
 
@@ -121,7 +121,7 @@ h2{
 #foot{
     background-color:rgb(41, 121, 240);
     height:30vh;
-    width:100%;
+display:flex;
   border-radius:10px;
 }
 #login_credential a:hover:nth-child(1){
@@ -154,4 +154,13 @@ li{
     font-family:'Times New Roman', Times, serif;
     margin:20px;
     cursor:default;
+}
+.foot1{
+    width:100%;
+}
+#he{
+    font-size:25px;
+    color:white;
+    
+    font-family:”Times New Roman”; 
 }
